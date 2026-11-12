@@ -1,9 +1,14 @@
-# Mist Search: overrides on top of SearXNG defaults
+# Cowl: overrides on top of SearXNG defaults
 # https://docs.searxng.org/admin/settings/
-use_default_settings: true
+use_default_settings:
+  engines:
+    remove:
+      - ahmia
+      - torch
 
 general:
   instance_name: "Cowl"
+  contact_url: mailto:help@misttechnologies.net
 
 server:
   limiter: true
@@ -12,3 +17,13 @@ server:
 
 valkey:
   url: valkey://searxng-valkey:6379/0
+
+brand:
+  issue_url: https://github.com/MSteier/Cowl/issues
+  new_issue_url: https://github.com/MSteier/Cowl/issues/new
+  custom:
+    links:
+      Cowl source code: https://github.com/MSteier/Cowl
+
+search:
+  safe_search: 1
