@@ -1,0 +1,14 @@
+# Mist Search: overrides on top of SearXNG defaults
+# https://docs.searxng.org/admin/settings/
+use_default_settings: true
+
+general:
+  instance_name: "Cowl"
+
+server:
+  limiter: true
+  public_instance: true
+  image_proxy: true
+
+valkey:
+  url: valkey://searxng-valkey:6379/0
