@@ -30,4 +30,6 @@ AGPL-3.0, the same license as SearXNG. See [LICENSE](LICENSE).
 
 Cowl is an independent instance, not affiliated with the SearXNG project.
 
-Questions or abuse reports: help@misttechnologies.net
+Questions: help@misttechnologies.net
+Abuse, copyright, or legal reports: abuse@misttechnologies.net
+Terms of use: https://misttechnologies.net/cowl/terms/
